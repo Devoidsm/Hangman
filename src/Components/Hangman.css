@@ -1,0 +1,124 @@
+.Hangman {
+    width: 350px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    zoom: 1.0;
+}
+
+.App-logo {
+    height: 8vmin;
+    pointer-events: none;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+  
+.Hangman img {
+    border: 10px solid grey;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06) inset;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.Hangman img:hover {
+    border: 10px solid pink;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06) inset;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+.Hangman h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    margin-bottom: 0.1em;
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+  
+  .Hangman-word {
+    letter-spacing: 1em;
+    margin: 0.4em -1em 0.2em 0;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+  .Hangman-btns {
+    text-align: center;
+    display: inline-block;
+    width: 225px;
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+  .Hangman button {
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 33px;
+    margin: 5px 2px 2px 2px;
+    letter-spacing: 1px;
+    outline: none;
+    background: #64ff11;
+    color: black;
+    box-shadow: 0 6px #2fff00;
+    border-radius: 5px;
+    padding-top: 4px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+  #reset {
+    width: 60px;
+    background-color: gold;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+
+  #reset:hover {
+    background-color: #e10c4c;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+  .Hangman button:hover {
+    background-color: #0ce743;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  
+  .Hangman button:disabled {
+    background: #bdbdbd;
+    color: #eeeeee;
+    box-shadow: 0 6px #9e9e9e;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
